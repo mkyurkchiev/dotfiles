@@ -17,5 +17,6 @@ link_file() {
   ln -sf "$src" "$dest"
 }
 
-link_file "$DOTFILES_DIR/git/.gitconfig" "$HOME/.gitconfig"
 link_file "$DOTFILES_DIR/zsh/.zshrc" "$HOME/.zshrc"
+link_file "$DOTFILES_DIR/bash/.bashrc" "$HOME/.bashrc"
+link_file "$DOTFILES_DIR/emacs/init.el" "$HOME/.emacs.d/init.el"
